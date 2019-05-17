@@ -245,6 +245,15 @@ on property:init.svc.zygote=running
 on property:init.svc.zygote=restarting
     stop ppd
 
+on property:init.svc.vendor.hwcomposer-2-3=stopped
+    stop ppd
+
+on property:init.svc.vendor.hwcomposer-2-3=running
+    start ppd
+
+on property:init.svc.vendor.hwcomposer-2-3=restarting
+    stop ppd
+
 on charger
     start qcom-post-boot
     start vendor.hvdcp_opti
