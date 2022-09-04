@@ -129,7 +129,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
     libdng_sdk.vendor \
-    vendor.qti.hardware.camera.device@1.0:64
+    vendor.qti.hardware.camera.device@1.0:64 \
+    libyuv \
+    libexif
 
 # Cgroup and task_profiles
 PRODUCT_COPY_FILES += \
