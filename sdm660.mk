@@ -60,7 +60,9 @@ PRODUCT_COPY_FILES += \
 # A13
 PRODUCT_PACKAGES += \
     libsecureui \
-    libsecureui.vendor
+    libsecureui.vendor \
+    vendor.qti.hardware.display.allocator@3.0.vendor \
+    vendor.qti.hardware.display.allocator@4.0.vendor
 
 
 # Audio
