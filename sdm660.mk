@@ -62,11 +62,14 @@ PRODUCT_PACKAGES += \
     libsecureui \
     libsecureui.vendor \
     vendor.qti.hardware.display.allocator@3.0.vendor \
-    vendor.qti.hardware.display.allocator@4.0.vendor
-
+    vendor.qti.hardware.display.allocator@4.0.vendor \
+    vendor.qti.hardware.perf@2.0 \
+    android.hardware.drm@1.2-service.widevine
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio@4.0-impl \
     android.hardware.audio@5.0-impl:32 \
     android.hardware.audio.effect@5.0-impl:32 \
     android.hardware.audio.service \
