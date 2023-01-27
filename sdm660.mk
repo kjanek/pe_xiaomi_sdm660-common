@@ -57,6 +57,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.verified_boot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.verified_boot.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+# A13
+PRODUCT_PACKAGES += \
+    libsecureui \
+    libsecureui.vendor
+
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@5.0-impl:32 \
