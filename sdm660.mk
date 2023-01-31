@@ -70,7 +70,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@4.0-service \
     android.hardware.drm@1.2-service.widevine \
     android.hardware.graphics.allocator@3.0-impl \
-    android.hardware.graphics.allocator@4.0-impl 
+    android.hardware.graphics.allocator@4.0-impl \
+    android.frameworks.sensorservice@1.0
 
 
 # VNDK
