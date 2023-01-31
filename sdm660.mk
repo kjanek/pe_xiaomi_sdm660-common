@@ -68,7 +68,10 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio@4.0-impl \
     android.hardware.audio@4.0-service \
-    android.hardware.drm@1.2-service.widevine
+    android.hardware.drm@1.2-service.widevine \
+    android.hardware.graphics.allocator@3.0-impl \
+    android.hardware.graphics.allocator@4.0-impl 
+
 
 # VNDK
 PRODUCT_COPY_FILES += \
